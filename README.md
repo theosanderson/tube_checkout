@@ -1,3 +1,6 @@
+
+
+```
 from opentrons import protocol_api
 import tube_checkout
 
@@ -22,3 +25,4 @@ def run(protocol: protocol_api.ProtocolContext):
         print("Tube {} had barcode {}".format(i, barcode))
         # Fill in reverse order to avoid collisions
         grabber.drop(destination_rack.wells()[23 - i])
+```
