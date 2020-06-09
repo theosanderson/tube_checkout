@@ -1,9 +1,11 @@
 $fn=30;
-tube_small_width = 12.0;
+tube_small_width = 11.3;
 tube_big_width = 13.8;
 holder_width=20;
 holder_extra=14;
 holder_length=24;
+
+holder_thickness=2;
 tolerance=2;
 use <MCAD/nuts_and_bolts.scad>;
 
@@ -43,36 +45,47 @@ cube([holder_width,3,5]);
  
  
  
- module grabber(){
+ module grabber(grabber_height=7, back_piece = true){
+     if(back_piece){
 difference(){
     translate([-20/2,-holder_extra,0])
 cube([20,4,60]);
     translate([0,0,15])
     rotate([90,0,0])
-#cylinder(r=2.6,h=50);
+cylinder(r=2.6,h=50);
       translate([0,0,45])
     rotate([90,0,0])
-#cylinder(r=2.6,h=50);
+cylinder(r=2.6,h=50);
     
       translate([0,0,30])
     rotate([90,0,0])
 #cylinder(r=2.6,h=50);
 }
+}
 
 difference(){
     translate([-holder_width/2,-holder_extra,0])
-    cube([holder_width,holder_length,7]);
+    cube([holder_width,holder_length,grabber_height]);
 
     one_neg_bit();
+    
+    translate([-holder_width/2,-holder_extra+17,0])
+    #cube([holder_width,holder_length-17,1]);
 //translate([-tube_big_width/2,0,3])
 //cube([tube_big_width,20,3]);
 
 
-translate([0,0,3])
-cylinder(r1=tube_big_width/2,r2=tube_big_width/2+tolerance,h=5);
+translate([0,0,holder_thickness])
+#cylinder(r1=tube_big_width/2,r2=tube_big_width/2+tolerance,h=5);
+
+translate([0,0,7])
+#cylinder(r=tube_big_width/2+tolerance,h=25);
 
 
-}
+};
+
+
+
 };
 
 
@@ -105,7 +118,7 @@ module neg_bit2(){
 }
 
 
-grabber();
+grabber(7);
 
 module pipette_negative(){
 copy_mirror(){

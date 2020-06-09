@@ -8,7 +8,7 @@
 
 
 ## Barcode scanner (optional extra)
-[Alacrity Embedded Mini USB Fixed Mount Barcode Scanner](https://www.amazon.co.uk/gp/product/B07CXXVLSD/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)
+- [Alacrity Embedded Mini USB Fixed Mount Barcode Scanner](https://www.amazon.co.uk/gp/product/B07CXXVLSD/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)
 
 ## Tubes
 This device works with [Sarstedt screwcapped 2ml microtubes](https://www.fishersci.com/shop/products/2ml-sc-mtube-cbs-gwb-st-cs1000/50809242). It is not able to open lids, but can carry capped or uncapped tubes.
