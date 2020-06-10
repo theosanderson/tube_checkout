@@ -1,6 +1,6 @@
 
 
-```
+```py
 from opentrons import protocol_api
 import tube_checkout
 
@@ -14,15 +14,17 @@ metadata = {
 
 def run(protocol: protocol_api.ProtocolContext):
 
-    grabber = tube_checkout.TubeMover("right")
+    tube_mover = tube_checkout.TubeMover("right")
 
     source_rack = tube_checkout.load_rack(protocol, '1')
     destination_rack = tube_checkout.load_rack(protocol, '3')
 
     for i, tube in enumerate(source_rack.wells()):
-        grabber.grab(tube)
-        barcode = grabber.scan_barcode()
+        tube_mover.grab(tube)
+        barcode = tube_mover.scan_barcode()
+        
         print("Tube {} had barcode {}".format(i, barcode))
+        
         # Fill in reverse order to avoid collisions
-        grabber.drop(destination_rack.wells()[23 - i])
+        tube_mover.drop(destination_rack.wells()[23 - i])
 ```
