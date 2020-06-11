@@ -1,2 +1,5 @@
 
 SCAD/barcode_mount.stl
+.DS_Store
+tube_checkout/tube_checkout/labware/__init__.pyc
+*.pyc
