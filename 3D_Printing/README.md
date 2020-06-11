@@ -6,6 +6,8 @@ All files are designed for printing with an FDM printer. While SLA printing is l
 
 Print [all_printed_grabber.stl](all_printed_grabber.stl) with support. It is best to use a low (0.1) layer height, or to use adaptive layer heights.
 
+Once printed clear the nut holes and put some M3 nuts into them. You can use a spare M3 bolt to tighten the nuts into the holes.
+
 ### Racks
 
 Print either [24_2ml_tube_rack_v2.stl](24_2ml_tube_rack_v2.stl) (easier to print) or [24_2ml_tube_rack_v2.2.stl](24_2ml_tube_rack_v2.2.stl) (functionally better, more tolerance). The files are set up to print the rack upside-down because this gives the flattest bottom, which is where tolerance is most crucial. Feel free to try printing the other way too. They should be printed *without* support.
