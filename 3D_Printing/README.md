@@ -1,5 +1,7 @@
 # 3D Printing
 
+All files are designed for printing with an FDM printer. While SLA printing is likely possible it will require some modifications to the SCAD files. Feel free to open an issue.
+
 ### Grabbing tool
 
 Print [all_printed_grabber.stl](all_printed_grabber.stl) with support. It is best to use a low (0.1) layer height, or to use adaptive layer heights.
