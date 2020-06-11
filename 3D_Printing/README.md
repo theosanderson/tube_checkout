@@ -12,4 +12,4 @@ Print either [24_2ml_tube_rack_v2.stl](24_2ml_tube_rack_v2.stl) (easier to print
 
 ### Barcode scanner mount
 
-Print [https://github.com/theosanderson/tube_checkout/blob/master/SCAD/barcode_plate.stl](https://github.com/theosanderson/tube_checkout/blob/master/SCAD/barcode_plate.stl) with support. This prints right-way-up so you may need to clean up the sides at the bottom with a knife if the bottom layer is too fat. Attach a rubber band across the goalposts (double up until it is somewhat taut), and attach the barcode scanner to the mount either with tape or M2 nuts and bolts.
+Print [barcode_plate.stl](https://github.com/theosanderson/tube_checkout/blob/master/SCAD/barcode_plate.stl) with support. This prints right-way-up so you may need to clean up the sides at the bottom with a knife if the bottom layer is too fat. Attach a rubber band across the goalposts (double up until it is somewhat taut), and attach the barcode scanner to the mount either with tape or M2 nuts and bolts.
