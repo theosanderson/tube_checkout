@@ -131,29 +131,30 @@ Bring the gripper right down vertically such that it just touches the rack. Then
 """)
 
 
-def main():
-    blank = urwid.Divider()
-    div = urwid.Divider(u'-')
-    content = [blank,pos_txt,blank,movement_distance_txt,blank,message,div,keyboard, div,instructions]
-    listbox = urwid.ListBox(urwid.SimpleListWalker(content))
-    frame = urwid.Frame(urwid.AttrWrap(listbox, 'body'), header=header)
-    palette = [
-            ('body','black','light gray', 'standout'),
-            ('reverse','light gray','black'),
-            ('header','white','dark red', 'bold'),
-            ('important','dark blue','light gray',('standout','underline')),
-            ('editfc','white', 'dark blue', 'bold'),
-            ('editbx','light gray', 'dark blue'),
-            ('editcp','black','light gray', 'standout'),
-            ('bright','dark gray','light gray', ('bold','standout')),
-            ('buttn','black','dark cyan'),
-            ('buttnf','white','dark blue','bold'),
-            ]
+
+blank = urwid.Divider()
+div = urwid.Divider(u'-')
+content = [blank,pos_txt,blank,movement_distance_txt,blank,message,div,keyboard, div,instructions]
+listbox = urwid.Pile(content)
+fill = urwid.Filler(listbox, "top")
+frame = urwid.Frame(urwid.AttrWrap(fill, 'body'), header=header)
+palette = [
+        ('body','black','light gray', 'standout'),
+        ('reverse','light gray','black'),
+        ('header','white','dark red', 'bold'),
+        ('important','dark blue','light gray',('standout','underline')),
+        ('editfc','white', 'dark blue', 'bold'),
+        ('editbx','light gray', 'dark blue'),
+        ('editcp','black','light gray', 'standout'),
+        ('bright','dark gray','light gray', ('bold','standout')),
+        ('buttn','black','dark cyan'),
+        ('buttnf','white','dark blue','bold'),
+        ]
 
 
-    set_movement_distance(10)
-    update_pos()
-    loop = urwid.MainLoop(frame, palette,unhandled_input=show_or_exit)
-    loop.run()
-    print("Quitting...")
-    tube_checkout.utils.watcher_thread.stop()
+set_movement_distance(10)
+update_pos()
+loop = urwid.MainLoop(frame, palette,unhandled_input=show_or_exit)
+loop.run()
+print("Quitting...")
+tube_checkout.utils.watcher_thread.stop()

@@ -3,3 +3,15 @@ SCAD/barcode_mount.stl
 .DS_Store
 tube_checkout/tube_checkout/labware/__init__.pyc
 *.pyc
+tube_checkout/tubecheckout.egg-info/dependency_links.txt
+tube_checkout/tubecheckout.egg-info/not-zip-safe
+tube_checkout/tubecheckout.egg-info/PKG-INFO
+tube_checkout/tubecheckout.egg-info/requires.txt
+tube_checkout/tubecheckout.egg-info/SOURCES.txt
+tube_checkout/tubecheckout.egg-info/top_level.txt
+tube_checkout/tube_checkout.egg-info/top_level.txt
+tube_checkout/tube_checkout.egg-info/SOURCES.txt
+tube_checkout/tube_checkout.egg-info/requires.txt
+tube_checkout/tube_checkout.egg-info/PKG-INFO
+tube_checkout/tube_checkout.egg-info/not-zip-safe
+tube_checkout/tube_checkout.egg-info/dependency_links.txt
