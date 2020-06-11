@@ -13,12 +13,12 @@ def run(protocol: protocol_api.ProtocolContext):
 
     source_rack = tube_mover.get_rack('1')
     destination_rack = tube_mover.get_rack('2')
-
+    barcode_file = open("/data/barcodes.txt", "w") 
     for i, tube in enumerate(source_rack.wells()):
         tube_mover.grab(tube)
         barcode = tube_mover.scan_barcode()
         
-        protocol.comment("Tube {} had barcode {}".format(i, barcode))
+        barcode_file.write("Tube {} had barcode {}\n".format(i, barcode))
         
         # Fill in reverse order to avoid collisions
         tube_mover.drop(destination_rack.wells()[23 - i])
