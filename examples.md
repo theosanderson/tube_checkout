@@ -72,3 +72,15 @@ for x in range(6)
 If we're trying to fill a 96 well plate it is helpful to combine multiple racks into one conceptual bigger rack. 
 The package provides a useful helper class for this.
 
+```py
+rack_places = ['1', '2', '4', '5']
+racks = {x: tube_mover.get_rack(x) for x in rack_places}
+import tube_checkout, random
+
+grid = [ [racks['4'], racks['5'] ],
+         [racks['1'],racks['2']] ]
+96_position_rack = tube_checkout.utils.BiggerLabwareFromComponents(grid)   
+```
+
+You can then use `96_position_rack.wells()` or `96_position_rack['E5']` or `96_position_rack.columns()[5][5]`.
+
