@@ -1,6 +1,6 @@
 # Installing the package
 
-Tube checkout is a Python package. To install it follow these instructions.
+Tube Checkout is a Python package. To install it follow these instructions.
 
 ### Find your robot's IP address
 Open the OpenTrons app. Go to the Robot tab and click on your Robot. In the `Connectivity` section you will see IP addresses listed for the robot. Choose an IP by which your computer is connected to the robot, i.e. if you are connected to it wirelessly, choose the Wireless IP, if you are connected with a wire choose the wired IP.
