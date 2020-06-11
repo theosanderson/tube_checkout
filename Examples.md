@@ -79,8 +79,8 @@ import tube_checkout.utils
 
 grid = [ [racks['4'], racks['5'] ],
          [racks['1'],racks['2']] ]
-96_position_rack = tube_checkout.utils.BiggerLabwareFromComponents(grid)   
+ninetysix_position_rack = tube_checkout.utils.BiggerLabwareFromComponents(grid)   
 ```
 
-You can then use `96_position_rack.wells()` or `96_position_rack['E5']` or `96_position_rack.columns()[5][5]`.
+You can then use `ninetysix_position_rack.wells()` or `ninetysix_position_rack['E5']` or `ninetysix_position_rack.columns()[5][5]`.
 
