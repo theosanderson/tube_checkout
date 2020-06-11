@@ -10,7 +10,7 @@ Once printed clear the nut holes and put some M3 nuts into them. You can use a s
 
 ### Racks
 
-Print either [24_2ml_tube_rack_v2.stl](24_2ml_tube_rack_v2.stl) (easier to print) or [24_2ml_tube_rack_v2.2.stl](24_2ml_tube_rack_v2.2.stl) (functionally better, more tolerance). The files are set up to print the rack upside-down because this gives the flattest bottom, which is where tolerance is most crucial. Feel free to try printing the other way too. They should be printed *without* support.
+Print either [24_2ml_tube_rack_v2.stl](24_2ml_tube_rack_v2.stl) (easier to print) or [24_2ml_tube_rack_v2.2.stl](24_2ml_tube_rack_v2.2.stl) (functionally better, more tolerance). The files are set up to print the rack upside-down because this gives the flattest bottom, which is where tolerance is most crucial. Feel free to try printing the other way too if you are confident about your printbed. They should be printed *without* support.
 
 ### Barcode scanner mount
 
