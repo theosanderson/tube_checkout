@@ -1,6 +1,6 @@
 # Limitations and mitigation
 
-We have striven to make this system as robust as we can, nevertheless in some rare circumstances it could have difficulties transporting tubes safely. Here we discuss those situations, and the measures already in place and which can be put in place to mitigate them.
+We have striven to make this system as robust as we can, nevertheless in some rare circumstances it could have difficulties transporting tubes safely. Here we discuss those situations, the measures already in place to mitigate them, and further measures that can be enabled.
 
 To have any success with this system you need to calibrate it correctly, as discussed in Installation.md.
 
