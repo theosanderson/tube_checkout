@@ -75,7 +75,7 @@ The package provides a useful helper class for this, e.g. we can put racks in de
 ```py
 rack_places = ['1', '2', '4', '5']
 racks = {x: tube_mover.get_rack(x) for x in rack_places}
-import tube_checkout, random
+import tube_checkout.utils
 
 grid = [ [racks['4'], racks['5'] ],
          [racks['1'],racks['2']] ]
