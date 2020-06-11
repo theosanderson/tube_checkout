@@ -1,6 +1,6 @@
 # 3D Printing
 
-All files are designed for printing with an FDM printer. While SLA printing is likely possible it will require some modifications to the SCAD files. Feel free to open an issue.
+All files are designed for printing with an FDM printer. While SLA printing is likely possible it will require some modifications to the SCAD files. The orientation of the printing files is that which we feel works best.
 
 ### Grabbing tool
 
