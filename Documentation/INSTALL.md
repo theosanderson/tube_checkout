@@ -1,3 +1,7 @@
+# Mount the grabber
+
+Using the OpenTrons app connect to your robot and go to `Pipettes and Modules`. Remove the existing pipette. Go to add a new pipette and mount the tool to the right mount.
+
 # Installing the package
 
 Tube Checkout is a Python package. To install it follow these instructions.
