@@ -23,8 +23,9 @@ The very worst case scenario would be if a misaligned tube could cause a collisi
 - when the tube is lowered into a rack the force of the stepper motors is reduced so that if a collision did occur little force would be exerted (you can disable this protection with `tube_mover.drop_with_low_current = False`).
 - after the tube is lowered into the rack the tube homes itself and attempts to detect whether a collision has occurred. If a collision has occurred it stops (you can disable this protection with `tube_mover.home_after_drop = False`).
 
-## Furter safety procedures you can enable
+## Further safety procedures you could enable
 - Make sure to print `v2.2` of the rack which allows a wider range of tube positions.
 - Set `tube_mover.drop_with_shake=True` to shake the tube as it is lowered, making it more likely that the center of the rack position will be found.
 - Set `tube_mover.use_transit_channel=True` to make the tool never carry one tube over another, reducing the possibility of dripping
+- Attach the racks firmly to the robot deck with screws / glue.
 
