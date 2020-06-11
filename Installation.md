@@ -1,6 +1,6 @@
 # Mount the grabber
 
-Using the OpenTrons app connect to your robot and go to `Pipettes and Modules`. Remove the existing pipette. Go to add a new pipette and mount the tool to the right mount.
+Using the OpenTrons app connect to your robot and go to `Pipettes and Modules`. Remove the existing pipette on the right mount if present (`Change`), or press `Attach`. The Mount will lower. Choose an arbitary pipette and follow the onscreen instructions, installing the tool as if it were a pipette, using three of the four nut holes. You do not need to connect the wire (there is nothing to connect it to!) so press `Back -> Exit` after the tool is attached. 
 
 # Installing the package
 
