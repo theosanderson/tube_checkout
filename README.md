@@ -1,16 +1,12 @@
+# Tube Checkout
 
+Tube Checkout is an open hardware extension for [OpenTrons OT2](http://opentrons.com) liquid handling robots, which allows them to carry tubes and scan barcodes from them using a 3D printed tool that occupies one of the two pipette mounts.
+
+Tube Checkout currently works with Sarstedt 2ml screw-capped tubes. Tube Checkout allows you to write a protocol which records the identity of each tube loaded onto the robot deck, transfers liquid from these tubes into a plate, and writes out the identity of the liquid in each well of the plate. It thus forms a bridge between operations performed per-sample (e.g. collection of saliva) and those performed in batches (e.g. RNA extraction).
+
+Here is an example protocol which scans 24 tubes.
 
 ```py
-from opentrons import protocol_api
-import tube_checkout
-
-metadata = {
-    'protocolName': 'Tube scanning',
-    'description': 'Collect each tube in a 24-tube rack, scan the barcode, and drop in a different rack.',
-    'apiLevel': '2.2'
-}
-
-
 def run(protocol: protocol_api.ProtocolContext):
 
     tube_mover = tube_checkout.TubeMover(protocol)
