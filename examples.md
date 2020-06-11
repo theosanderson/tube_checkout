@@ -70,7 +70,7 @@ for x in range(6)
 ```
 
 If we're trying to fill a 96 well plate it is helpful to combine multiple racks into one conceptual bigger rack. 
-The package provides a useful helper class for this.
+The package provides a useful helper class for this, e.g. we can put racks in deck positions 1,2, 4 and 5 as one big rack.
 
 ```py
 rack_places = ['1', '2', '4', '5']
