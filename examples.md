@@ -19,7 +19,7 @@ def run(protocol: protocol_api.ProtocolContext):
     # do stuff
 ```
 
-For convenience TubeMover has a function `get_rack` which will return a Tube Checkout rack labware at the desired deck position.
+For convenience TubeMover has a function `get_rack` which will return a Tube Checkout rack labware at the desired deck position. Racks are best supported in positions 1,2, 4 and 5. Other positions may cause collisions.
 
 ```
 source_rack = tube_mover.get_rack('1') # Load a rack in slot '1'
