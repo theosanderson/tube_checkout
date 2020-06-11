@@ -46,6 +46,7 @@ for (x = [0:num_x-1]){
 }
 }
 };
+module rack(){
 difference(){
 cube([plate_x,plate_y,total_thickness]);
 translate([offset_x,offset_y,offset_z])
@@ -56,6 +57,9 @@ neg_set();
    # cube([cut_out_dim,cut_out_dim,50]);
    
 };
+};
+
+rotate([180,0,0]) rack();
 
 //barcode_attachment();
 
