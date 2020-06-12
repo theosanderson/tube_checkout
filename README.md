@@ -28,4 +28,4 @@ def run(protocol: protocol_api.ProtocolContext):
 ### Getting started
 - You will need [some 3D printed parts](3D_Printing/README.md), an [Alacrity Mini Barcode Scanner](https://www.amazon.co.uk/gp/product/B07CXXVLSD/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1) (if you want to scan barcodes), a few M3 nuts, a rubber band, and some [Sarstedt screwcapped 2ml microtubes](https://www.fishersci.com/shop/products/2ml-sc-mtube-cbs-gwb-st-cs1000/50809242) to move around.
 - [Mount the tool to the robot, install the Python package, and calibrate the tool](Installation.md).
-- View some [examples](examples.md) of how to use the package in your OpenTrons protocols.
+- View some [examples](Examples.md) of how to use the package in your OpenTrons protocols.
