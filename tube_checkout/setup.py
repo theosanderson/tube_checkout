@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='tube_checkout',
-      version='0.1',
+      version='0.1.1.2',
       description='Scan tube barcodes with OpenTrons',
       url='http://github.com/theosanderson/tubecheckout',
       author='Theo Sanderson',

@@ -15,3 +15,5 @@ tube_checkout/tube_checkout.egg-info/requires.txt
 tube_checkout/tube_checkout.egg-info/PKG-INFO
 tube_checkout/tube_checkout.egg-info/not-zip-safe
 tube_checkout/tube_checkout.egg-info/dependency_links.txt
+*.whl
+tube_checkout/dist/tube_checkout-0.1.1.2.tar.gz

@@ -1,7 +1,7 @@
 import urwid
 import tube_checkout
 import time
-movement_distances = {"1": 0.1,"2": 0.5, "3":1, "4":5,"5": 10,"6": 20,"7": 50, "8":100}
+movement_distances = {"1": 0.1,"2": 0.5, "3":1, "4":5,"5": 10,"6": 20,"7": 50, "8":100};
 movement_distance = None
 
 import tube_checkout.utils, tube_checkout.tube_movement
