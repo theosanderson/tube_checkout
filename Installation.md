@@ -22,7 +22,7 @@ On the right side of the Jupyter screen press `New` - > `Terminal`. A terminal w
 
 
 ### Install the package
-Click on the black terminal and type `pip install tube_checkout` and press enter.
+Click on the black terminal and type `pip install tube-checkout` and press enter.
 
 The package should install.
 
