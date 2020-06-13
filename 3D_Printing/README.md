@@ -8,6 +8,8 @@ Print [all_printed_grabber.stl](all_printed_grabber.stl) with support. It is bes
 
 Once printed clear the nut holes and put some M3 nuts into them. You can use a spare M3 bolt to tighten the nuts into the holes.
 
+<img src=https://github.com/theosanderson/tube_checkout/blob/master/Documentation/nuts.jpg style="width:50%;  transform: rotate(90deg);">
+
 ### Racks
 
 Print either [24_2ml_tube_rack_v2.stl](24_2ml_tube_rack_v2.stl) (easier to print) or [24_2ml_tube_rack_v2.2.stl](24_2ml_tube_rack_v2.2.stl) (functionally better, more tolerance). The files are set up to print the rack upside-down because this gives the flattest bottom, which is where tolerance is most crucial. Feel free to try printing the other way too if you are confident about your printbed. They should be printed *without* support. To keep the rings smooth it may be worth printing quite slowly. A low infill is fine.
