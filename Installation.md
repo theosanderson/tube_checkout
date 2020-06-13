@@ -1,10 +1,10 @@
 # Mount the grabber
 
-Using the OpenTrons app connect to your robot and go to `Pipettes and Modules`. Remove the existing pipette on the right mount if present (`Change`), or press `Attach`. The Mount will lower. Choose an arbitary pipette and follow the onscreen instructions, installing the tool as if it were a pipette, using three of the four nut holes. You do not need to connect the wire (there is nothing to connect it to!) so press `Back -> Exit` after the tool is attached. 
+Using the OpenTrons app connect to your robot and go to `Pipettes and Modules`. Remove the existing pipette on the right mount if present (`Change`), or press `Attach`. The Mount will lower. Choose an arbitary pipette and follow the onscreen instructions, installing the tool as if it were a pipette, using three of the four nut holes. You do not need to connect the pipette wire (there is nothing to connect it to!) so press `Back -> Exit` after the tool is attached. 
 
 # Installing the package
 
-Tube Checkout is a Python package. To install it follow these instructions.
+Tube Checkout is a Python package. Here is how to install it on your robot:
 
 ### Find your robot's IP address
 Open the OpenTrons app. Go to the Robot tab and click on your Robot. In the `Connectivity` section you will see IP addresses listed for the robot. Choose an IP by which your computer is connected to the robot, i.e. if you are connected to it wirelessly, choose the Wireless IP, if you are connected with a wire choose the wired IP.
