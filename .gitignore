@@ -17,3 +17,6 @@ tube_checkout/tube_checkout.egg-info/not-zip-safe
 tube_checkout/tube_checkout.egg-info/dependency_links.txt
 *.whl
 tube_checkout/dist/tube_checkout-0.1.1.2.tar.gz
+3D_Printing/tube_shape - Copy.stl
+3D_Printing/tube_shape - Copy.scad
+tube_checkout/build/*
