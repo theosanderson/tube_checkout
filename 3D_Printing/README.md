@@ -8,7 +8,7 @@ Print [all_printed_grabber.stl](all_printed_grabber.stl) with support. It is bes
 
 Once printed clear the nut holes and put some M3 nuts into them. You can use a spare M3 bolt to tighten the nuts into the holes.
 
-<img src=https://github.com/theosanderson/tube_checkout/blob/master/Documentation/nuts.jpg style="width:50%;  transform: rotate(90deg);">
+<img src=https://github.com/theosanderson/tube_checkout/blob/master/Documentation/nuts2.jpg style="width:50%; ">
 
 ### Racks
 
